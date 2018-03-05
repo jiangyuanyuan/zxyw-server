@@ -1,11 +1,11 @@
 # zxyw_server
 主要有3个模块：
-##用户模块
+## 用户模块
     表现层：controller包下UserController
     业务层：service包下impl包下的UserServiceImpl
     数据提供:dao包下UserMapper
     SQL语句：resources包下mappers包下UserMapper.xml
-###主要接口
+### 主要接口
 *   
    登录接口
 *
@@ -28,12 +28,12 @@
     更新用户信息接口
 *   
    获取用户信息接口
-##好友模块
+## 好友模块
     表现层：controller包下FriendController
     业务层：service包下impl包下的FriendServiceImpl
     数据提供:dao包下FriendMapper
     SQL语句：resources包下mappers包下FriendMapper.xml
-###主要接口
+### 主要接口
 *   
    添加好友接口
 *
@@ -46,7 +46,7 @@
    模糊查询某个好友接口
 *
     好友列表接口
-##融云即时通讯模块
+## 融云即时通讯模块
     io.rong包内
 *   Example为融云API的各种实例demo
 
