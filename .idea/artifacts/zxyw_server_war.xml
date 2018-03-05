@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zxyw_server:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="zxyw.war">
+      <element id="artifact" artifact-name="zxyw_server:war exploded" />
+    </root>
+  </artifact>
+</component>
