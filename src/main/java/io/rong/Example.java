@@ -20,8 +20,8 @@ public class Example {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
-		String appKey = "c9kqb3rdcoynj";//替换成您的appkey
-		String appSecret = "lcKhxIS1M5F";//替换成匹配上面key的secret
+		String appKey = "   ";//替换成您的appkey
+		String appSecret = "    ";//替换成匹配上面key的secret
 		
 		Reader reader = null ;
 		RongCloud rongCloud = RongCloud.getInstance(appKey, appSecret);
