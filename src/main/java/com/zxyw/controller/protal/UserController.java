@@ -25,7 +25,7 @@ public class UserController {
     private IUserService iUserService;
 
     /**
-     * 登录接口   http://120.79.2.255:8080/zxyw/user/login.do
+     * 登录接口   http://localhost:8080/user/login.do
      *
      * @param username 必填 登录的用户名
      * @param password 必填 登录密码
@@ -69,7 +69,7 @@ public class UserController {
     }
 
     /**
-     * 用户退出接口   http://120.79.2.255:8080/zxyw/user/logout.do
+     * 用户退出接口   http://localhost:8080/user/logout.do
      *
      * @param session 无视
      * @return {
@@ -115,7 +115,7 @@ public class UserController {
     }
 
     /**
-     * 校验接口  http://120.79.2.255:8080/zxyw/user/check_valid.do
+     * 校验接口  http://localhost:8080/user/check_valid.do
      *
      * @param string 必填 被校验的string
      * @param type   必填 校验用户名是否可用：check_username   邮箱是否可用：check_email
@@ -137,7 +137,7 @@ public class UserController {
     }
 
     /**
-     * 登录情况下获取用户信息接口     http://120.79.2.255:8080/zxyw/user/get_user_info.do
+     * 登录情况下获取用户信息接口     http://localhost:8080/user/get_user_info.do
      *
      * @param session 登录情况下获取用户信息
      * @return 成功：
@@ -176,7 +176,7 @@ public class UserController {
     }
 
     /**
-     * 查询忘记密码的问题是什么接口     http://120.79.2.255:8080/zxyw/user/forget_get_question.do
+     * 查询忘记密码的问题是什么接口     http://localhost:8080/user/forget_get_question.do
      *
      * @param username 必填 用户名
      * @return 成功：
@@ -199,7 +199,7 @@ public class UserController {
     }
 
     /**
-     * 校验找回密码问题     http://120.79.2.255:8080/zxyw/user/forget_check_question.do
+     * 校验找回密码问题     http://localhost:8080/user/forget_check_question.do
      *
      * @param username 必填 用户名
      * @param question 必填 问题
@@ -224,7 +224,7 @@ public class UserController {
     }
 
     /**
-     * 密码问题重置密码接口    http://120.79.2.255:8080/zxyw/user/forget_reset_question.do
+     * 密码问题重置密码接口    http://localhost:8080/user/forget_reset_question.do
      *
      * @param username    必填 用户名
      * @param newPassword 必填 新密码
@@ -248,7 +248,7 @@ public class UserController {
     }
 
     /**
-     * 登录状态下重置密码接口    http://120.79.2.255:8080/zxyw/user/reset_password.do
+     * 登录状态下重置密码接口    http://localhost:8080/user/reset_password.do
      *
      * @param session     无视
      * @param newPassword 必填 新密码
@@ -281,7 +281,7 @@ public class UserController {
     }
 
     /**
-     * 更新用户信息接口    http://120.79.2.255:8080/zxyw/user/update_information.do
+     * 更新用户信息接口    http://localhost:8080/user/update_information.do
      * 参数 email      邮箱
      * 参数 phone      电话
      * 参数 question   找回密码的问题
@@ -308,7 +308,7 @@ public class UserController {
     }
 
     /**
-     * 获取用户信息接口    http://120.79.2.255:8080/zxyw/user/get_information.do
+     * 获取用户信息接口    http://localhost:8080/user/get_information.do
      *
      * @param session 无视
      * @return 成功：
