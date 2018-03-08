@@ -27,7 +27,7 @@ public class FriendController {
     IFriendService iFriendService;
 
     /**
-     * 添加好友接口  http://120.79.2.255:8080/zxyw/friend/add_friend.do
+     * 添加好友接口  http://localhost:8080/friend/add_friend.do
      *
      * @param friendname 必填 好友用户名
      * @param session    无视
@@ -49,7 +49,7 @@ public class FriendController {
     }
 
     /**
-     * 添加好友接口  http://120.79.2.255:8080/zxyw/friend/delete_friend.do
+     * 添加好友接口  http://localhost:8080/friend/delete_friend.do
      *
      * @param friendname 必填 好友用户名
      * @param session    无视
@@ -71,7 +71,7 @@ public class FriendController {
 
 
     /**
-     * 同意or加入黑名单好友申请接口   http://120.79.2.255:8080/zxyw/friend/update_friend_status.do
+     * 同意or加入黑名单好友申请接口   http://localhost:8080/friend/update_friend_status.do
      *
      * @param friendname 必填 好友用户名
      * @param status     必填   1 同意添加好友    0 加入黑名单    拒绝添加请调用删除好友接口
@@ -93,7 +93,7 @@ public class FriendController {
     }
 
     /**
-     * 修改好友备注接口   http://120.79.2.255:8080/zxyw/friend/update_friend_memoname.do
+     * 修改好友备注接口   http://localhost:8080/friend/update_friend_memoname.do
      *
      * @param friendname 必填 好友用户名
      * @param memoname   必填 备注名
@@ -115,7 +115,7 @@ public class FriendController {
     }
 
     /**
-     * 模糊查询某个好友接口  http://120.79.2.255:8080/zxyw/friend/search.do
+     * 模糊查询某个好友接口  http://localhost:8080/friend/search.do
      *
      * @param friendname 必填 好友用户名的一部分
      * @param username   必填 用户名
@@ -137,7 +137,7 @@ public class FriendController {
 
 
     /**
-     * 好友列表接口 http://120.79.2.255:8080/zxyw/friend/list_friend.do
+     * 好友列表接口 http://localhost:8080/friend/list_friend.do
      *
      * @param username  必填 用户名
      * @param pageNum  分页查询第几页 默认第1页
